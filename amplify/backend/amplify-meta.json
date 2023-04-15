@@ -1,15 +1,43 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-amplify4120aef8d8df4-staging-05638-authRole",
-      "UnauthRoleArn": "arn:aws:iam::865450294465:role/amplify-amplify4120aef8d8df4-staging-05638-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::865450294465:role/amplify-amplify4120aef8d8df4-staging-05638-authRole",
+      "AuthRoleName": "amplify-amplifyapp-dev-212651-authRole",
+      "UnauthRoleArn": "arn:aws:iam::865450294465:role/amplify-amplifyapp-dev-212651-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::865450294465:role/amplify-amplifyapp-dev-212651-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-amplify4120aef8d8df4-staging-05638-deployment",
-      "UnauthRoleName": "amplify-amplify4120aef8d8df4-staging-05638-unauthRole",
-      "StackName": "amplify-amplify4120aef8d8df4-staging-05638",
-      "StackId": "arn:aws:cloudformation:us-east-1:865450294465:stack/amplify-amplify4120aef8d8df4-staging-05638/60dffc20-db28-11ed-a393-12b043467b95",
-      "AmplifyAppId": "dx64692lsautg"
+      "DeploymentBucketName": "amplify-amplifyapp-dev-212651-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-dev-212651-unauthRole",
+      "StackName": "amplify-amplifyapp-dev-212651",
+      "StackId": "arn:aws:cloudformation:us-east-1:865450294465:stack/amplify-amplifyapp-dev-212651/99b4cb80-db2c-11ed-b711-0e808e040cf3",
+      "AmplifyAppId": "d3iuwl9ugit8dt"
+    }
+  },
+  "auth": {
+    "amplifyappbedca813": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
     }
   }
 }

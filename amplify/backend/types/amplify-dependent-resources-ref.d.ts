@@ -18,7 +18,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "s32dbb1e67": {
+    "s318fc5970": {
       "BucketName": "string",
       "Region": "string"
     }

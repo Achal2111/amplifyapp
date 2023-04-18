@@ -220,12 +220,12 @@
         }
       }
     },
-    "storages318fc5970": {
+    "storages3b90a0e51": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
         "TemplateURL": "https://s3.amazonaws.com/amplify-amplify1f3b54bc9c924-staging-11000-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
         "Parameters": {
-          "bucketName": "amplifyapp9be6252e61094bd89ce22faedcfef41b",
+          "bucketName": "amplifyapp422a3b658fc34c1ea24afc209da859d9",
           "selectedGuestPermissions": "",
           "selectedAuthenticatedPermissions": "s3:PutObject,s3:GetObject,s3:ListBucket,s3:DeleteObject",
           "unauthRoleName": {
@@ -234,13 +234,13 @@
           "authRoleName": {
             "Ref": "AuthRoleName"
           },
-          "s3PrivatePolicy": "Private_policy_18fc5970",
-          "s3ProtectedPolicy": "Protected_policy_18fc5970",
-          "s3PublicPolicy": "Public_policy_18fc5970",
-          "s3ReadPolicy": "read_policy_18fc5970",
-          "s3UploadsPolicy": "Uploads_policy_18fc5970",
-          "authPolicyName": "s3_amplify_18fc5970",
-          "unauthPolicyName": "s3_amplify_18fc5970",
+          "s3PrivatePolicy": "Private_policy_b90a0e51",
+          "s3ProtectedPolicy": "Protected_policy_b90a0e51",
+          "s3PublicPolicy": "Public_policy_b90a0e51",
+          "s3ReadPolicy": "read_policy_b90a0e51",
+          "s3UploadsPolicy": "Uploads_policy_b90a0e51",
+          "authPolicyName": "s3_amplify_b90a0e51",
+          "unauthPolicyName": "s3_amplify_b90a0e51",
           "AuthenticatedAllowList": "ALLOW",
           "GuestAllowList": "DISALLOW",
           "s3PermissionsAuthenticatedPrivate": "s3:PutObject,s3:GetObject,s3:DeleteObject",
